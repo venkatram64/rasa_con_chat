@@ -4,7 +4,15 @@ from __future__ import unicode_literals
 
 from rasa_core.actions.action import Action
 from rasa_core.events import SlotSet
+"""
+step 1: virtualenv con_chat
 
+C:\Users\venkatram.veerareddy\my_rasa_chat>C:\\Users\\venkatram.veerareddy\\Anaconda3\\Scripts\activate my_con_chat
+
+rasa-nlu-trainer --source Desktop/weather_bot/data/data.json
+
+https://rasahq.github.io/rasa-nlu-trainer/
+"""
 
 class ActionWeather(Action):
     def name(self):
