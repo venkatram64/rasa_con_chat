@@ -11,7 +11,7 @@ entities:
   - location
 
 templates:
-  utter_great:
+  utter_greet:
     - 'Hello! How can I help?'
   utter_goodbye:
     - 'Talk to you later.'
