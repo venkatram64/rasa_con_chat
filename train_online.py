@@ -13,12 +13,12 @@ from rasa_core.train import interactive
 from rasa_core.utils import EndpointConfig
 
 logger = logging.getLogger(__name__)
-
+#https://github.com/JustinaPetr/Weatherbot_Tutorial/tree/master/Full%20Code%20%5BLatest%20release%20of%20Rasa%20NLU%20and%20Rasa%20Core%5D
 #https://github.com/JustinaPetr/Weatherbot_Tutorial/blob/master/Full%20Code%20%5BLatest%20release%20of%20Rasa%20NLU%20and%20Rasa%20Core%5D/train_online.py
 def run_weather_online(interpreter,
                        domain_file="weather_domain.yml",
                        training_data_file='data/stories.md'):
-    action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
+    action_endpoint = EndpointConfig(url="http://localhost:55785/webhook")
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(max_history=2), KerasPolicy(max_history=3, epochs=3, batch_size=50)],
                   interpreter=interpreter,
