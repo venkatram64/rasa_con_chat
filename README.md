@@ -43,5 +43,14 @@ python -m rasa_core_sdk.endpoint --actions actions
 python train_online.py
 
 
+Connecting a chatbot to Slack:
+1. Configure the slack app as shown in the video
+2. Make sure custom actions server is running
+3. Start the agent by running run_app.py file (don't forget to provide the slack_token)
+4. Start the ngrok on the port 5004
+5. Provide the url: https://your_ngrok_url/webhooks/slack/webhook to 'Event Subscriptions' page of the slack configuration.
+6. Talk to you bot.
+
+
 
 
