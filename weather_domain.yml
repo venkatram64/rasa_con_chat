@@ -2,13 +2,15 @@ slots:
   location:
     type: text
 
+
 intents:
-  - greet
-  - goodbye
-  - inform
+ - greet
+ - goodbye
+ - inform
+
 
 entities:
-  - location
+ - location
 
 templates:
   utter_greet:
@@ -19,8 +21,9 @@ templates:
   utter_ask_location:
     - 'In what location?'
 
+
 actions:
-  - utter_greet
-  - utter_goodbye
-  - utter_ask_location
-  - action_weather
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_location
+ - action_weather
