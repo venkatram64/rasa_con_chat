@@ -34,7 +34,7 @@ pykwalify==1.6.0
 coloredlogs==10
 ruamel.yaml==0.15.34
 flask==1.0
-rasa_nlu
+rasa_nlu==0.13.7
 
 ##additional
 pypandoc
