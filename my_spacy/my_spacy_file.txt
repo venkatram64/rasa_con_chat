@@ -1,0 +1,23 @@
+From zero to hero: Creating a chatbot with Rasa NLU and Rasa Core
+AI assistants are a hot topic these days. Chances are that you have already had an encounter with at least one of them,
+as a user or as a developer. In this post, I would like to talk about a stack of software called Rasa, which you should
+definitely include in your toolbox if you would like to build conversational assistants yourself.
+
+In short, Rasa NLU and Rasa Core are two open source Python libraries for development of conversational AI.
+They are packed with Machine Learning and handle natural language understanding and dialogue management tasks.
+Most importantly, Rasa stack is easy to use, you don’t need massive amounts of training data to get started and it is perfectly suited for production.
+
+
+I have been building chatbots with Rasa stack for almost a year now and it is safe to say, that it has been a tool that
+I have been the most excited about throughout that time. And here is why:
+
+It is open source. You own your data and you can hack things.
+ It is developer friendly. You don’t even need to know Python to use it.
+ It has an awesome community and highly involved developers. If you have any issues,
+ just post a message on Rasa Community Forum and someone from Rasa team or other developers will help you out.
+ It is a great example of how applied research can be shipped to practice and empower thousands of developers around the world.
+So… With all that in mind, I decided to make a tutorial on how to create a chatbot using
+Rasa stack completely from scratch. It is going to be an exhaustive tutorial, with a deep dive into
+Python (if you don’t code in Python, don’t get discouraged – check the Rasa documentation of how you can do it all
+without any Python whatsoever). I am going to build a simple Slack integrated weather bot, called Frank.
+I highly encourage you to follow along so grab a cup of tea and let’s build some chatbots!
